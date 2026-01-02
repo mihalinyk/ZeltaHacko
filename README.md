@@ -2,8 +2,6 @@
 
 **Zelta - Hacko** is a lightweight Android security library designed to protect your applications from tampering, reverse engineering, and running on rooted devices.
 
-> Developed by **Shoukaku0x7** or **Vynie7**
-
 ---
 
 ## Features
@@ -23,7 +21,7 @@
 If you're using Git, it's recommended to add this library as a submodule from your project root directory:
 
 ```bash
-$ git submodule add https://github.com/Vynie7/ZeltaHacko ZeltaHacko
+$ git submodule add https://github.com/mihalinyk/ZeltaHacko ZeltaHacko
 $ git submodule update --init --recursive
 ```
 
@@ -136,10 +134,10 @@ class MainActivity : AppCompatActivity() {
 To remove the submodule completely, run this one-liner:
 
 ```bash
-$ git submodule deinit -f ZeltaHackoMimi
-$ git rm -f libs/ZeltaHackoMimi
-$ rm -rf .git/modules/ZeltaHackoMimi
-$ rm -rf ZeltaHackoMimi
+$ git submodule deinit -f ZeltaHacko
+$ git rm -f libs/ZeltaHacko
+$ rm -rf .git/modules/ZeltaHacko
+$ rm -rf ZeltaHacko
 ```
 
 ---
